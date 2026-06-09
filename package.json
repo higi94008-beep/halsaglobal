@@ -1,0 +1,21 @@
+{
+  "name": "halsaglobal",
+  "version": "1.0.0",
+  "description": "HalsaGlobal — Salesforce Consulting Website on Vercel + Supabase",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static build complete'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.2",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "vercel": "^34.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
